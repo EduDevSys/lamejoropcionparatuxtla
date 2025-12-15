@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Optimizado -->
+    <title>
+      Jovani Salazar - Movimiento de Esperanza y Humanismo de Chiapas
+    </title>
+    <meta
+      name="description"
+      content="Jovani Salazar lidera el Movimiento de Esperanza y Humanismo de Chiapas, un proyecto social enfocado en el desarrollo y bienestar de la comunidad en Tuxtla Gutiérrez."
+    />
+    <meta
+      name="keywords"
+      content="Jovani Salazar, Movimiento de Esperanza y Humanismo, Chiapas, Tuxtla Gutiérrez, movimiento social"
+    />
+    <meta name="author" content="Jovani Salazar" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Jovani Salazar - Movimiento de Esperanza y Humanismo de Chiapas"
+    />
+    <meta
+      property="og:description"
+      content="Jovani Salazar lidera el Movimiento de Esperanza y Humanismo de Chiapas"
+    />
+    <meta property="og:url" content="https://tudominio.com" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Jovani Salazar - Movimiento de Esperanza y Humanismo"
+    />
+    <meta
+      name="twitter:description"
+      content="Movimiento social en Chiapas liderado por Jovani Salazar"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🐇</text></svg>"
+    />
+
+    <!-- Fonts: Montserrat (display) + Source Sans Pro (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Source+Sans+Pro:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "name": "Jovani Salazar",
+            "description": "Líder del Movimiento de Esperanza y Humanismo de Chiapas",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Tuxtla Gutiérrez",
+              "addressRegion": "Chiapas",
+              "addressCountry": "MX"
+            },
+            "memberOf": {
+              "@type": "Organization",
+              "name": "Movimiento de Esperanza y Humanismo de Chiapas"
+            }
+          },
+          {
+            "@type": "Organization",
+            "name": "Movimiento de Esperanza y Humanismo de Chiapas",
+            "url": "https://tudominio.com",
+            "logo": "https://tudominio.com/logo.png",
+            "description": "Movimiento social enfocado en esperanza y humanismo para la comunidad de Chiapas",
+            "founder": {
+              "@type": "Person",
+              "name": "Jovani Salazar"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Tuxtla Gutiérrez",
+              "addressRegion": "Chiapas",
+              "addressCountry": "MX"
+            },
+            "sameAs": [
+              "https://facebook.com/tupagina",
+              "https://instagram.com/tupagina"
+            ]
+          }
+        ]
+      }
+    </script>
+
+    <!-- Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=TU-ID-AQUI"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "TU-ID-AQUI");
+    </script>
+  </head>
+  <body>
+    <!-- Splash Screen con Conejo -->
+    <div id="splash-screen">
+      <div class="splash-content">
+        <div class="rabbit-animation">
+          <div class="rabbit">🐇</div>
+          <div class="speed-lines">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="splash-text">
+          <h1>Movimiento de Esperanza<br />y Humanismo</h1>
+          <div class="loading-bar">
+            <div class="loading-progress"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contenido Principal -->
+    <div id="main-content" style="display: none">
+      <!-- Header -->
+      <header class="site-header">
+        <div class="container">
+          <div class="header-content">
+            <div class="logo">
+              <span class="logo-icon">🐇</span>
+              <img
+                src="images/logo-movimiento.png"
+                alt="Logo Movimiento"
+                class="logo-image"
+              />
+              <div class="logo-text">
+                <span class="logo-movement">Movimiento de Esperanza</span>
+                <span class="logo-subtitle">y Humanismo de Chiapas</span>
+              </div>
+            </div>
+
+            <!-- Botón Hamburguesa (solo móvil) -->
+            <button
+              class="mobile-menu-toggle"
+              id="mobile-menu-toggle"
+              aria-label="Abrir menú"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+
+            <nav class="main-nav" id="main-nav">
+              <a href="#inicio" class="nav-link active">Inicio</a>
+              <a href="#publicaciones" class="nav-link">Publicaciones</a>
+              <a href="#jovani" class="nav-link">Jovani Salazar</a>
+              <a href="#movimiento" class="nav-link">El Movimiento</a>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!-- Hero Section -->
+      <section id="inicio" class="hero-section">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="badge-icon">🐇</span>
+              <span>Velocidad • Energía • Humanismo</span>
+            </div>
+            <h1 class="hero-title">
+              <span class="hero-title-main">Jovani Salazar</span>
+              <span class="hero-title-sub"
+                >Movimiento de Esperanza y Humanismo de Chiapas</span
+              >
+            </h1>
+            <p class="hero-description">
+              Un movimiento social comprometido con el desarrollo, la esperanza
+              y el bienestar de la comunidad de Tuxtla Gutiérrez y todo Chiapas.
+            </p>
+            <div class="hero-cta">
+              <a href="#publicaciones" class="btn btn-primary">
+                Ver Publicaciones
+                <span class="btn-arrow">→</span>
+              </a>
+              <a href="#movimiento" class="btn btn-secondary"> Conocer Más </a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-decoration">
+          <div class="floating-rabbit">🐇</div>
+        </div>
+      </section>
+
+      <!-- Publicaciones Feed -->
+      <section id="publicaciones" class="posts-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Últimas Publicaciones</h2>
+            <p class="section-subtitle">
+              Mantente al día con nuestras actividades y comunicados
+            </p>
+          </div>
+
+          <!-- Feed dinámico de publicaciones -->
+          <div id="posts-feed" class="posts-grid">
+            <!-- Los posts se cargarán dinámicamente aquí -->
+            <div class="loading-posts">
+              <div class="spinner"></div>
+              <p>Cargando publicaciones...</p>
+            </div>
+          </div>
+
+          <div class="load-more-container">
+            <button
+              id="load-more-btn"
+              class="btn btn-secondary"
+              style="display: none"
+            >
+              Cargar Más Publicaciones
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Acerca de Jovani Salazar -->
+      <section id="jovani" class="about-section about-jovani">
+        <div class="container">
+          <div class="about-grid">
+            <div class="about-image">
+              <div class="image-placeholder">
+                <span class="placeholder-icon">👤</span>
+              </div>
+            </div>
+            <div class="about-content">
+              <div class="about-badge">
+                <span class="badge-icon">🐇</span>
+                <span>Liderazgo</span>
+              </div>
+              <h2 class="about-title">Jovani Salazar</h2>
+              <h3 class="about-subtitle">
+                Líder del Movimiento de Esperanza y Humanismo
+              </h3>
+              <div class="about-text">
+                <p>
+                  <strong>Jovani Salazar</strong> es un líder social
+                  comprometido con el desarrollo y bienestar de las comunidades
+                  en Chiapas. Con una visión centrada en el humanismo y la
+                  esperanza, busca generar cambios positivos y duraderos en
+                  Tuxtla Gutiérrez y toda la región.
+                </p>
+                <p>
+                  Su liderazgo se caracteriza por la cercanía con la comunidad,
+                  la transparencia en las acciones y un enfoque integral que
+                  abarca desarrollo social, educación y bienestar colectivo.
+                </p>
+              </div>
+              <div class="about-stats">
+                <div class="stat-item">
+                  <span class="stat-icon">🎯</span>
+                  <span class="stat-label">Compromiso Social</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-icon">🤝</span>
+                  <span class="stat-label">Trabajo Comunitario</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-icon">💡</span>
+                  <span class="stat-label">Visión de Futuro</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Acerca del Movimiento -->
+      <section id="movimiento" class="about-section about-movement">
+        <div class="container">
+          <div class="about-grid reverse">
+            <div class="about-content">
+              <div class="about-badge">
+                <span class="badge-icon">🐇</span>
+                <span>Movimiento Social</span>
+              </div>
+              <h2 class="about-title">
+                Movimiento de Esperanza y Humanismo de Chiapas
+              </h2>
+              <div class="about-text">
+                <p>
+                  El
+                  <strong
+                    >Movimiento de Esperanza y Humanismo de Chiapas</strong
+                  >
+                  nace como una respuesta a las necesidades de nuestra
+                  comunidad, enfocándose en construir un futuro mejor para todos
+                  los habitantes de Tuxtla Gutiérrez y el estado de Chiapas.
+                </p>
+                <p>
+                  Liderado por <strong>Jovani Salazar</strong>, el movimiento se
+                  sustenta en valores de solidaridad, participación ciudadana,
+                  transparencia y desarrollo integral. Trabajamos para que cada
+                  voz sea escuchada y cada acción genere impacto positivo.
+                </p>
+              </div>
+              <div class="movement-pillars">
+                <h4>Nuestros Pilares</h4>
+                <div class="pillars-grid">
+                  <div class="pillar-item">
+                    <span class="pillar-icon">🌟</span>
+                    <h5>Esperanza</h5>
+                    <p>Construir un futuro mejor para todos</p>
+                  </div>
+                  <div class="pillar-item">
+                    <span class="pillar-icon">❤️</span>
+                    <h5>Humanismo</h5>
+                    <p>El ser humano en el centro de nuestras acciones</p>
+                  </div>
+                  <div class="pillar-item">
+                    <span class="pillar-icon">🤝</span>
+                    <h5>Comunidad</h5>
+                    <p>Trabajo colectivo y participación ciudadana</p>
+                  </div>
+                  <div class="pillar-item">
+                    <span class="pillar-icon">⚡</span>
+                    <h5>Acción</h5>
+                    <p>Resultados concretos y transformación real</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about-image">
+              <div class="image-placeholder">
+                <span class="placeholder-icon">🐇</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-brand">
+              <div class="footer-logo">
+                <span class="logo-icon">🐇</span>
+                <span class="logo-text"
+                  >Movimiento de Esperanza<br />y Humanismo</span
+                >
+              </div>
+              <p class="footer-description">
+                Liderado por <strong>Jovani Salazar</strong><br />
+                Tuxtla Gutiérrez, Chiapas
+              </p>
+            </div>
+            <div class="footer-links">
+              <h4>Enlaces</h4>
+              <a href="#inicio">Inicio</a>
+              <a href="#publicaciones">Publicaciones</a>
+              <a href="#jovani">Jovani Salazar</a>
+              <a href="#movimiento">El Movimiento</a>
+            </div>
+            <div class="footer-social">
+              <h4>Síguenos</h4>
+              <div class="social-links">
+                <!-- Agrega tus enlaces de redes sociales aquí -->
+                <a href="#" class="social-link" aria-label="Facebook">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                    />
+                  </svg>
+                </a>
+                <a href="#" class="social-link" aria-label="Instagram">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>
+              &copy; 2025
+              <strong>Movimiento de Esperanza y Humanismo de Chiapas</strong> -
+              Liderado por <strong>Jovani Salazar</strong>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Supabase JS Client -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <!-- Configuración de Supabase -->
+    <script src="supabase-config.js"></script>
+
+    <!-- Script principal -->
+    <script src="script.js"></script>
+  </body>
+</html>
