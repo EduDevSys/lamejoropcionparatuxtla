@@ -185,7 +185,7 @@ const examplePosts = [
     description:
       "Gran participación en la primera reunión del Movimiento de Esperanza y Humanismo. Jovani Salazar agradeció la participación de todos los asistentes.",
     image:
-      "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600&h=400&fit=crop",
+      "https://diariodechiapas.com/wp-content/uploads/2024/02/DIME_12A-1-1.jpg",
     url: "https://www.facebook.com/profile.php?id=100088311252002",
     type: "facebook",
     date: "2025-01-12",
@@ -205,7 +205,7 @@ const examplePosts = [
 ];
 
 // Agregar posts de ejemplo
-examplePosts.forEach((post) => addPost(post));
+//examplePosts.forEach((post) => addPost(post));
 
 // ================================
 // SISTEMA DE SPLASH SCREEN
