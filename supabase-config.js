@@ -4,9 +4,14 @@ const SUPABASE_CONFIG = {
 };
 
 // Inicializar cliente de Supabase
-window.supabaseClient = window.supabase.createClient(
-  SUPABASE_CONFIG.url,
-  SUPABASE_CONFIG.key
-);
-
-console.log("✅ Supabase configurado correctamente");
+// Verifica primero que la librería esté cargada
+if (typeof window.supabase !== "undefined") {
+  const { createClient } = window.supabase;
+  window.supabaseClient = createClient(
+    SUPABASE_CONFIG.url,
+    SUPABASE_CONFIG.key
+  );
+  console.log("✅ Supabase configurado correctamente");
+} else {
+  console.warn("⚠️ Librería de Supabase no cargada");
+}

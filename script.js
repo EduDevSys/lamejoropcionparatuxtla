@@ -127,14 +127,19 @@ async function loadPostsFromSupabase() {
     // Primero agregar posts fijos
     pinnedPosts.forEach((post) => addPost(post));
 
-    // Verificar si Supabase está disponible
-    if (typeof supabase === "undefined") {
-      console.warn("⚠️ Supabase no está configurado. Usando solo posts fijos.");
+    // Verificar si el cliente de Supabase está disponible
+    if (!supabaseClient) {
+      console.warn("⚠️ Cliente de Supabase no está disponible.");
+      console.log(
+        "💡 Verifica que supabase-config.js esté cargado correctamente"
+      );
       return;
     }
 
+    console.log("🔍 Intentando conectar a Supabase...");
+
     // Obtener posts desde Supabase
-    const { data: posts, error } = await supabase
+    const { data: posts, error } = await supabaseClient
       .from("posts")
       .select("*")
       .eq("visible", true)
@@ -142,11 +147,13 @@ async function loadPostsFromSupabase() {
 
     if (error) {
       console.error("❌ Error al cargar posts:", error);
+      console.log('💡 Verifica que la tabla "posts" exista en Supabase');
       return;
     }
 
     if (!posts || posts.length === 0) {
       console.log("📭 No hay posts en Supabase aún");
+      console.log("💡 Agrega posts en Supabase Table Editor");
       return;
     }
 
@@ -169,6 +176,7 @@ async function loadPostsFromSupabase() {
     console.log(`✅ ${posts.length} posts cargados desde Supabase`);
   } catch (error) {
     console.error("❌ Error al conectar con Supabase:", error);
+    console.log("💡 Detalles:", error.message);
   }
 }
 
