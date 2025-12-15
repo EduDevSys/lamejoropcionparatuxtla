@@ -91,7 +91,7 @@ const pinnedPosts = [
     title: "Sígueme en Facebook - Jovani Salazar",
     description: "Mantente al día con mis actividades",
     image:
-      "https://scontent.ftgz3-1.fna.fbcdn.net/v/t39.30808-6/432744288_7695095903841981_723777429365698672_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=yrx6-aF8_G4Q7kNvwEpFcgH&_nc_oc=AdludLS4slXiLAn-sqFh0hvQ_0xkNE6WMKoN4wLct2LeXAedLnyBHvinL6vZe1BMQb_7iWWOyiOgjRFY3rFCEi4M&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.ftgz3-1.fna&_nc_gid=Aqw12HGuASVbvCsyb7sf8g&oh=00_AflX2SivZI1yHtsx5ImmXKXhJv0zc8aoaU_rPM9EdoUjTw&oe=69460DDB",
+      "https://diariodechiapas.com/wp-content/uploads/2024/02/DIME_12A-1-1.jpg",
     url: "https://www.facebook.com/AlexanderJovaniSalazar",
     type: "facebook",
     category: "movimiento",
@@ -185,7 +185,7 @@ const examplePosts = [
     description:
       "Gran participación en la primera reunión del Movimiento de Esperanza y Humanismo. Jovani Salazar agradeció la participación de todos los asistentes.",
     image:
-      "https://diariodechiapas.com/wp-content/uploads/2024/02/DIME_12A-1-1.jpg",
+      "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600&h=400&fit=crop",
     url: "https://www.facebook.com/profile.php?id=100088311252002",
     type: "facebook",
     date: "2025-01-12",
