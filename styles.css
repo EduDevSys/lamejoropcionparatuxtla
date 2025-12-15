@@ -1031,7 +1031,27 @@ body {
   }
 }
 
-@media (max-width: 640px) {
+/* Breakpoint intermedio para tablets (641px - 900px) */
+@media (min-width: 641px) and (max-width: 900px) {
+  .logo-text {
+    display: flex !important; /* Mostrar texto en tablets */
+  }
+
+  .logo-movement {
+    font-size: 0.95rem;
+  }
+
+  .logo-subtitle {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 900px) {
+  /* Ocultar menú horizontal en móvil/tablet */
+  .main-nav {
+    display: none; /* Oculto por defecto */
+  }
+
   .hero-title-main {
     font-size: 2rem;
   }
@@ -1048,20 +1068,16 @@ body {
     flex-direction: column;
   }
 
+  /* Ocultar texto del logo en pantallas medianas */
   .logo-text {
     display: none;
-  }
-
-  /* Logo más pequeño en móvil */
-  .logo-image {
-    height: 40px;
   }
 
   .logo-icon {
     font-size: 1.5rem;
   }
 
-  /* Mostrar botón hamburguesa en móvil */
+  /* Mostrar botón hamburguesa en móvil y tablets */
   .mobile-menu-toggle {
     display: flex;
   }
