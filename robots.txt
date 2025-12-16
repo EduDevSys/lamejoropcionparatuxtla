@@ -1,0 +1,63 @@
+# robots.txt para Movimiento de Esperanza y Humanismo de Chiapas
+# Sitio de Jovani Salazar
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /assets/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.svg
+
+# Excluir archivos de configuración
+Disallow: /supabase-config.js
+Disallow: /test-supabase.html
+
+# Permitir todos los bots principales
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# Bots de IA y LLMs
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Sitemap
+Sitemap: https://edudevsys.github.io/lamejoropcionparatuxtla/sitemap.xml
+
+# Información adicional para crawlers
+# Nombre: Movimiento de Esperanza y Humanismo de Chiapas
+# Líder: Jovani Salazar (Alexander Jovani Salazar Ruiz)
+# Ubicación: Tuxtla Gutiérrez, Chiapas, México
+# Temas: Desarrollo social, humanismo, participación ciudadana, Chiapas
