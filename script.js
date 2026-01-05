@@ -105,7 +105,7 @@ const pinnedPosts = [
     description:
       "Síguenos para noticias y eventos del Movimiento de Esperanza y Humanismo",
     image:
-      "https://scontent.ftgz3-1.fna.fbcdn.net/v/t39.30808-6/542731020_756466770640358_8728905710434779022_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=of3_Wbg8ZMgQ7kNvwHLqgf6&_nc_oc=Adn5L-h5P8cnPQrUkvkcj-q6q8M41RuIkQIxsGFAfAI9ytliA6yFeXQGtrzY_eup4Y_esvKAH-W6wwQcj8ZF1U8-&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.ftgz3-1.fna&_nc_gid=R9XaJx4lSAERjk2yGdNHtQ&oh=00_AfkhI8jdg7Mgt19sE3bF7aFuJrvsu54pA8cwMEwypcWGRg&oe=69462809",
+      "https://edudevsys.github.io/lamejoropcionparatuxtla/assets/images/logoM4T.jpg",
     url: "https://www.facebook.com/profile.php?id=100088311252002",
     type: "facebook",
     category: "movimiento",
